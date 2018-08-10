@@ -1,0 +1,11 @@
+<h1>GET/POST/PUT</h1>
+<p>No real modifications are done!</p>
+<button (click)="getTest('/posts/1')">GET /posts/1 </button>
+<button (click)="getTest('/posts?userId=1')">GET /posts?userId=1</button>
+<button (click)="postTest('/posts')">POST /posts</button>
+<button (click)="putTest('/posts/1')">PUT /posts/1</button>
+<p> {{errorMessage}} </p>  
+<pre>
+  Command: {{command}}
+  Result:  {{result|json}}
+</pre>

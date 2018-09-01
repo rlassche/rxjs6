@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "rxjs6"
+  "defaultProject": "rxjs6",
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": false
+    }
+  }
 }

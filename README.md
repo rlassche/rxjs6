@@ -1,4 +1,4 @@
-# Angular 6.1, rxjs 6.3 and REST calls.
+# Angular, rxjs and REST calls.
 RXJS changed with version 6, and I had to change my older code.
 
 Here are some coding examples the Angular HttpClient and REST calls with GET, POST and PUT.
@@ -10,19 +10,20 @@ JSON placeholder is used for the backend.
 ```
 Package                           Version
 -----------------------------------------------------------
-@angular-devkit/architect         0.7.5
-@angular-devkit/build-angular     0.7.5
-@angular-devkit/build-optimizer   0.7.5
-@angular-devkit/build-webpack     0.7.5
-@angular-devkit/core              0.7.5
-@angular-devkit/schematics        0.7.5
-@angular/cli                      6.1.5
-@ngtools/webpack                  6.1.5
-@schematics/angular               0.7.5
-@schematics/update                0.7.5
-rxjs                              6.3.1
-typescript                        2.7.2
-webpack                           4.9.2
+@angular-devkit/architect         0.803.19
+@angular-devkit/build-angular     0.803.19
+@angular-devkit/build-optimizer   0.803.19
+@angular-devkit/build-webpack     0.803.19
+@angular-devkit/core              8.3.19
+@angular-devkit/schematics        8.3.19
+@angular/cli                      8.3.19
+@angular/http                     7.2.15
+@ngtools/webpack                  8.3.19
+@schematics/angular               8.3.19
+@schematics/update                0.803.19
+rxjs                              6.5.3
+typescript                        3.5.3
+webpack                           4.39.2
 ```
 
 # GET
